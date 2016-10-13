@@ -19,9 +19,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	gcimporter "golang.org/x/tools/go/gcimporter15"
-	"golang.org/x/tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
+	gcimporter "github.com/scalingdata/go-x-tools/go/gcimporter15"
+	"github.com/scalingdata/go-x-tools/go/loader"
 )
 
 func TestBExportData_stdlib(t *testing.T) {

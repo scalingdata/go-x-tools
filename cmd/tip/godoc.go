@@ -22,7 +22,7 @@ func (b godocBuilder) Signature(heads map[string]string) string {
 
 func (b godocBuilder) Init(dir, hostport string, heads map[string]string) (*exec.Cmd, error) {
 	goDir := filepath.Join(dir, "go")
-	toolsDir := filepath.Join(dir, "gopath/src/golang.org/x/tools")
+	toolsDir := filepath.Join(dir, "gopath/src/github.com/scalingdata/go-x-tools")
 	if err := checkout(repoURL+"go", heads["go"], goDir); err != nil {
 		return nil, err
 	}
@@ -37,7 +37,7 @@ func (b godocBuilder) Init(dir, hostport string, heads map[string]string) (*exec
 	}
 	goBin := filepath.Join(goDir, "bin/go")
 	goPath := filepath.Join(dir, "gopath")
-	install := exec.Command(goBin, "install", "golang.org/x/tools/cmd/godoc")
+	install := exec.Command(goBin, "install", "github.com/scalingdata/go-x-tools/cmd/godoc")
 	install.Env = []string{
 		"GOROOT=" + goDir,
 		"GOPATH=" + goPath,

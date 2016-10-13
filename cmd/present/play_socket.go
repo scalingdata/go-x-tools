@@ -11,8 +11,8 @@ import (
 	"net/url"
 	"runtime"
 
-	"golang.org/x/tools/playground/socket"
-	"golang.org/x/tools/present"
+	"github.com/scalingdata/go-x-tools/playground/socket"
+	"github.com/scalingdata/go-x-tools/present"
 )
 
 func initPlayground(basepath string, origin *url.URL) {

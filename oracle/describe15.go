@@ -17,10 +17,10 @@ import (
 	"os"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/ast/astutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/types/typeutil"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 // describe describes the syntax node denoted by the query position,

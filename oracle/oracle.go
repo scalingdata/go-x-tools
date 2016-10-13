@@ -5,13 +5,13 @@
 // +build go1.5
 
 // Package oracle contains the implementation of the oracle tool whose
-// command-line is provided by golang.org/x/tools/cmd/oracle.
+// command-line is provided by github.com/scalingdata/go-x-tools/cmd/oracle.
 //
 // DEPRECATED: oracle has been superseded by guru;
 // see https://golang.org/s/using-guru for details.
 // This package will be deleted on October 1, 2016.
 //
-package oracle // import "golang.org/x/tools/oracle"
+package oracle // import "github.com/scalingdata/go-x-tools/oracle"
 
 // This file defines oracle.Query, the entry point for the oracle tool.
 // The actual executable is defined in cmd/oracle.
@@ -32,11 +32,11 @@ import (
 	"io"
 	"path/filepath"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/ast/astutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/pointer"
+	"github.com/scalingdata/go-x-tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 type printfFunc func(pos interface{}, format string, args ...interface{})

@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/refactor/eg"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/refactor/eg"
 )
 
 // TODO(adonovan): more tests:

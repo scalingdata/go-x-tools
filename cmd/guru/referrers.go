@@ -17,10 +17,10 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/refactor/importgraph"
+	"github.com/scalingdata/go-x-tools/cmd/guru/serial"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/refactor/importgraph"
 )
 
 // Referrers reports all identifiers that resolve to the same object

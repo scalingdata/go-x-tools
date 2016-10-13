@@ -12,8 +12,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 // definition reports the location of the definition of an identifier.

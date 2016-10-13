@@ -15,7 +15,7 @@ import (
 	"go/types"
 	"testing"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/scalingdata/go-x-tools/go/types/typeutil"
 )
 
 var (

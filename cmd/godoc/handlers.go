@@ -20,9 +20,9 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/redirect"
-	"golang.org/x/tools/godoc/vfs"
+	"github.com/scalingdata/go-x-tools/godoc"
+	"github.com/scalingdata/go-x-tools/godoc/redirect"
+	"github.com/scalingdata/go-x-tools/godoc/vfs"
 )
 
 var (

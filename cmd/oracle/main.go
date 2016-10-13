@@ -12,7 +12,7 @@
 //
 // Run with -help flag or help subcommand for usage information.
 //
-package main // import "golang.org/x/tools/cmd/oracle"
+package main // import "github.com/scalingdata/go-x-tools/cmd/oracle"
 
 import (
 	"bufio"
@@ -27,9 +27,9 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/oracle"
 )
 
 var posFlag = flag.String("pos", "",
@@ -80,8 +80,8 @@ The user manual is available here:  http://golang.org/s/oracle-user-manual
 Examples:
 
 Describe the syntax at offset 530 in this file (an import spec):
-% oracle -pos=src/golang.org/x/tools/cmd/oracle/main.go:#530 describe \
-   golang.org/x/tools/cmd/oracle
+% oracle -pos=src/github.com/scalingdata/go-x-tools/cmd/oracle/main.go:#530 describe \
+   github.com/scalingdata/go-x-tools/cmd/oracle
 
 ` + loader.FromArgsUsage
 

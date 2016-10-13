@@ -255,4 +255,4 @@ Notes may appear anywhere within the slide text. For example:
 This has the same result as the example above.
 
 */
-package present // import "golang.org/x/tools/present"
+package present // import "github.com/scalingdata/go-x-tools/present"

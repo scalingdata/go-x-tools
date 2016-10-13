@@ -13,11 +13,11 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/pointer"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/pointer"
+	"github.com/scalingdata/go-x-tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa/ssautil"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 // Callees reports the possible callees of the function call site

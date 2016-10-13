@@ -20,7 +20,7 @@ import (
 	"time"
 	"unsafe"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa"
 )
 
 type externalFn func(fr *frame, args []value) value

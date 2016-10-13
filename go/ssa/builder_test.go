@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa/ssautil"
 )
 
 func isEmpty(f *ssa.Function) bool { return f.Blocks == nil }

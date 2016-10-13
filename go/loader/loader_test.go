@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
 )
 
 var go16 bool // Go version >= go1.6

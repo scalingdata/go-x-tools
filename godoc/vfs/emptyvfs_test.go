@@ -5,8 +5,8 @@
 package vfs_test
 
 import (
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
+	"github.com/scalingdata/go-x-tools/godoc/vfs"
+	"github.com/scalingdata/go-x-tools/godoc/vfs/mapfs"
 	"testing"
 	"time"
 )

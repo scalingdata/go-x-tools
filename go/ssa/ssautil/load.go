@@ -13,8 +13,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/ssa"
 )
 
 // CreateProgram returns a new program in SSA form, given a program

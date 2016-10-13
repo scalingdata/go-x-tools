@@ -23,7 +23,7 @@ package main_test
 // correctness, since it is critical information.)
 //
 // Run this test with:
-// 	% go test golang.org/x/tools/cmd/guru -update
+// 	% go test github.com/scalingdata/go-x-tools/cmd/guru -update
 // to update the golden files.
 
 import (
@@ -46,7 +46,7 @@ import (
 	"sync"
 	"testing"
 
-	guru "golang.org/x/tools/cmd/guru"
+	guru "github.com/scalingdata/go-x-tools/cmd/guru"
 )
 
 var updateFlag = flag.Bool("update", false, "Update the golden files.")

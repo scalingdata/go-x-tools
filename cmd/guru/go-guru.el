@@ -13,7 +13,7 @@
 ;; To enable the Go guru in Emacs, use this command to download,
 ;; build, and install the tool in $GOROOT/bin:
 ;;
-;;     $ go get golang.org/x/tools/cmd/guru
+;;     $ go get github.com/scalingdata/go-x-tools/cmd/guru
 ;;
 ;; Verify that the tool is on your $PATH:
 ;;
@@ -144,8 +144,8 @@
 
 The scope restricts analysis to the specified packages.
 Its value is a comma-separated list of patterns of these forms:
-	golang.org/x/tools/cmd/guru     # a single package
-	golang.org/x/tools/...          # all packages beneath dir
+	github.com/scalingdata/go-x-tools/cmd/guru     # a single package
+	github.com/scalingdata/go-x-tools/...          # all packages beneath dir
 	...                             # the entire workspace.
 
 A pattern preceded by '-' is negative, so the scope

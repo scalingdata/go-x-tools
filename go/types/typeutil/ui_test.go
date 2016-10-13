@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"github.com/scalingdata/go-x-tools/go/types/typeutil"
 )
 
 func TestIntuitiveMethodSet(t *testing.T) {

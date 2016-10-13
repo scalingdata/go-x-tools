@@ -13,10 +13,10 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa/ssautil"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 // peers enumerates, for a given channel send (or receive) operation,

@@ -15,7 +15,7 @@ import (
 	"runtime"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
 )
 
 func TestContainingPackage(t *testing.T) {
@@ -27,8 +27,8 @@ func TestContainingPackage(t *testing.T) {
 		{goroot + "/src/fmt/print.go", "fmt"},
 		{goroot + "/src/encoding/json/foo.go", "encoding/json"},
 		{goroot + "/src/encoding/missing/foo.go", "(not found)"},
-		{gopath + "/src/golang.org/x/tools/go/buildutil/util_test.go",
-			"golang.org/x/tools/go/buildutil"},
+		{gopath + "/src/github.com/scalingdata/go-x-tools/go/buildutil/util_test.go",
+			"github.com/scalingdata/go-x-tools/go/buildutil"},
 	}
 	for _, test := range tests {
 		file, want := test[0], test[1]

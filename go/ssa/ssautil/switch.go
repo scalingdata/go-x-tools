@@ -26,7 +26,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa"
 )
 
 // A ConstCase represents a single constant comparison.

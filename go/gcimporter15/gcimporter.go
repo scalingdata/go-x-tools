@@ -15,7 +15,7 @@
 // standard library's go/importer package, specifically customizable
 // package data lookup. This package should be deleted once that
 // functionality becomes available in the standard library.
-package gcimporter // import "golang.org/x/tools/go/gcimporter15"
+package gcimporter // import "github.com/scalingdata/go-x-tools/go/gcimporter15"
 
 import (
 	"bufio"

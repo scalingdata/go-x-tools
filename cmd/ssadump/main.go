@@ -5,7 +5,7 @@
 // +build go1.5
 
 // ssadump: a tool for displaying and interpreting the SSA form of Go programs.
-package main // import "golang.org/x/tools/cmd/ssadump"
+package main // import "github.com/scalingdata/go-x-tools/cmd/ssadump"
 
 import (
 	"flag"
@@ -16,11 +16,11 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/interp"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/scalingdata/go-x-tools/go/buildutil"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/ssa"
+	"github.com/scalingdata/go-x-tools/go/ssa/interp"
+	"github.com/scalingdata/go-x-tools/go/ssa/ssautil"
 )
 
 // flags

@@ -14,8 +14,8 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
 )
 
 // freevars displays the lexical (not package-level) free variables of

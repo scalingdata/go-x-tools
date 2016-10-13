@@ -15,10 +15,10 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/oracle/serial"
-	"golang.org/x/tools/refactor/importgraph"
+	"github.com/scalingdata/go-x-tools/go/loader"
+	"github.com/scalingdata/go-x-tools/go/types/typeutil"
+	"github.com/scalingdata/go-x-tools/oracle/serial"
+	"github.com/scalingdata/go-x-tools/refactor/importgraph"
 )
 
 // Implements displays the "implements" relation as it pertains to the

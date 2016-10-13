@@ -21,7 +21,7 @@ function die() {
 trap "rm -f $log" EXIT
 
 # Build and install guru.
-go get golang.org/x/tools/cmd/guru || die "'go get' failed"
+go get github.com/scalingdata/go-x-tools/cmd/guru || die "'go get' failed"
 mv -f $GOPATH/bin/guru $GOROOT/bin/
 $GOROOT/bin/guru >$log 2>&1 || true # (prints usage and exits 1)
 grep -q "Run.*help" $log || die "$GOROOT/bin/guru not installed"

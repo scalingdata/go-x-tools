@@ -15,7 +15,7 @@ import (
 	"os"
 	"testing"
 
-	"golang.org/x/tools/go/ssa/ssautil"
+	"github.com/scalingdata/go-x-tools/go/ssa/ssautil"
 )
 
 const hello = `package main
