@@ -19,7 +19,7 @@ import (
 	"net/url"
 	"regexp"
 
-	"golang.org/x/net/context"
+	"github.com/scalingdata/go-x-net/context"
 
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/datastore"

@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
-	"golang.org/x/net/html"
-	"golang.org/x/net/html/atom"
+	"github.com/scalingdata/go-x-net/html"
+	"github.com/scalingdata/go-x-net/html/atom"
 )
 
 func main() {

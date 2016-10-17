@@ -58,16 +58,16 @@
 //	cd $GOROOT/src/cmd/dist
 //	bundle -o zip.go archive/zip
 //
-// Bundle golang.org/x/net/http2 for inclusion in net/http,
+// Bundle github.com/scalingdata/go-x-net/http2 for inclusion in net/http,
 // prefixing all identifiers by "http2" instead of "http2_",
-// and rewriting the import "golang.org/x/net/http2/hpack"
-// to "internal/golang.org/x/net/http2/hpack":
+// and rewriting the import "github.com/scalingdata/go-x-net/http2/hpack"
+// to "internal/github.com/scalingdata/go-x-net/http2/hpack":
 //
 //	cd $GOROOT/src/net/http
 //	bundle -o h2_bundle.go \
 //		-prefix http2 \
-//		-import golang.org/x/net/http2/hpack=internal/golang.org/x/net/http2/hpack \
-//		golang.org/x/net/http2
+//		-import github.com/scalingdata/go-x-net/http2/hpack=internal/github.com/scalingdata/go-x-net/http2/hpack \
+//		github.com/scalingdata/go-x-net/http2
 //
 // Two ways to update the http2 bundle:
 //

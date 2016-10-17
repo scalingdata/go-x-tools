@@ -34,7 +34,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"golang.org/x/net/websocket"
+	"github.com/scalingdata/go-x-net/websocket"
 )
 
 // RunScripts specifies whether the socket handler should execute shell scripts
